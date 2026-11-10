@@ -5,10 +5,10 @@ MedCase includes cardiovascular, neurological, respiratory, gastrointestinal, an
 The project was developed as a final project for Harvard's CS50 introduction to Programming with Python(CS50P).
 
 ## Features
-- Five clinical cases acros different medical specialties.
+- Five clinical cases across different medical specialties.
 - Interactive multiple-choice questions with immediate feedback.
 - Automatic score calculation for each completed case.
-- Random case selection for varid learning experiences.
+- Random case selection for varied learning experiences.
 - Student ID validation using regular expressions.
 - Patient information management using JSON files.
 - Object-oriented patient representation using a python class.
@@ -32,7 +32,7 @@ The project was developed as a final project for Harvard's CS50 introduction to 
     python project.py
 
 4. Enter a student ID, such as 'MED123'.
-5. Select a medical specialty (1-5) or choose option 6 for a random case.
+5. Select a medical specialty (1-5) or chose option 6 for a random case.
 6. Read the patient's information and answer the two clinical questions.
 7. View your score. The result will be saved automatically in 'results.csv'.
 
@@ -49,7 +49,7 @@ MedCase consists of the following files.
 - 'cases.json': Stores clinical case information, including patient age, sex, chief complaint, symptom duration, and associated symptoms .
 - 'test_project.py': contains automated unit tests for the project's functions and Patient class.
 - 'results.csv': Stores completed case results, including student IDs, selected specialties, and scores.
-- 'README.md': Provides documentation, installation instructions, project features, and design explan
+- 'README.md': Provides documentation, installation instructions, project features, and design explanations
 
 ## Design Choices
 
@@ -57,15 +57,15 @@ Medcase was designed as a terminal-based application to keep the user interface 
 
 ### JSON for Clinical Cases
 
-I choose JSON to store patient information separately from the python code.This makes it easier to oraganize and update clinical cases without modifying the main application.
+I choose JSON to store patient information separately from the python code.This makes it easier to organize and update clinical cases without modifying the main application.
 
-### Objected-Oriented Programming
+### Object-Oriented Programming
 
-I created a Patient class to represent each patient as an object with attributes such as age, sex, cheif complaint, duration, and symptoms.
+I created a Patient class to represent each patient as an object with attributes such as age, sex, chief complaint, duration, and symptoms.
 
 ### CSV for score Tracking
 
-I used CSV files to store students IDs, selected specialties, and scores. This allows results to remain available after the application is closed.
+I used CSV files to store student IDs, selected specialties, and scores. This allows results to remain available after the application is closed.
 
 ### Regular Expressions
 
