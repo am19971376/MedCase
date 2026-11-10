@@ -83,7 +83,7 @@ def main():
             diagnosis_result = check_answer(diagnosis, "2")
 
             if diagnosis_result:
-                print("Correct! Pneumonia is a possiblle diagnosis.")
+                print("Correct! Pneumonia is a possible diagnosis.")
             else:
                 print("Incorrect! Pneumonia should be considered.")
 
@@ -99,7 +99,8 @@ def main():
             diagnosis_result = check_answer(diagnosis, "2")
 
             if diagnosis_result:
-                print("Correct! Acute appendicitis is a possiblle diagnosis.")
+                print("Correct! Acute appendicitis is a possib
+                le diagnosis.")
             else:
                 print("Incorrect! Acute appendicitis should be considered.")
 
@@ -164,9 +165,9 @@ def show_patient(patient):
         print("-------------------")
         print(f"Age: {patient.age}")
         print(f"Sex: {patient.sex}")
-        print(f"Cheif Complaint: {patient.case}")
+        print(f"Chief Complaint: {patient.case}")
         print(f"Duration: {patient.duration}")
-        print("Associated Symtoms:")
+        print("Associated Symptoms:")
 
         for number, symptom in enumerate(patient.symptoms, start=1):
             print(f"{number}.{symptom}")
@@ -210,9 +211,9 @@ def ask_headache_diagnosis():
 def ask_respiratory_question():
     print()
     print("Respiratory - Question 1:")
-    print("Which measurment is important in the initial assessment?")
+    print("Which measurement is important in the initial assessment?")
     print("1. Oxygen saturation")
-    print("2. Blood cholestrol")
+    print("2. Blood cholesterol")
     print("3. Visual acuity")
 
     return get_valid_answer()
@@ -244,7 +245,7 @@ def ask_abdominal_question():
 def ask_abdominal_diagnosis():
     print()
     print("Gastrointestinal - Question 2:")
-    print("Which diagnosis is most likely to be considerd in this patient?")
+    print("Which diagnosis is most likely to be considered in this patient?")
     print("1. Heart Attack")
     print("2. Acute Appendicitis")
     print("3. Asthma Attack")
@@ -278,10 +279,10 @@ def calculate_score(result1, result2):
 def show_feedback(result):
     if result:
         print("Correct!")
-        print("An EEG shold be done ASAP to detect alternations(especially ST elevations) in a patient with suspected acute coronary syndrome.")
+        print("An ECG shold be done ASAP to detect alternations(especially ST elevations) in a patient with suspected acute coronary syndrome.")
     else:
         print("Incorrect!")
-        print("An EEG is an important initial investigation for suspected acute coronary syndrome.")
+        print("An ECG is an important initial investigation for suspected acute coronary syndrome.")
 def get_valid_answer():
     while True:
         try:
