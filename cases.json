@@ -1,0 +1,65 @@
+{
+    "Cardiovascular":{
+        "case": "Chest Pain",
+        "age":55,
+        "sex": "Male",
+        "duration": "30 minutes",
+        "symptoms":[
+            "Chest Pain",
+            "Sweating",
+            "Nausea"
+        ]
+    },
+
+    "Neurology":{
+        "case": "Headache",
+        "age":28,
+        "sex": "Female",
+        "duration": "6 hours",
+        "symptoms":[
+            "Headache",
+            "Sensitivity to light",
+            "Nausea"
+        ]
+    },
+
+    "Respiratory":{
+        "case": "Shortness of Breath",
+        "age":67,
+        "sex": "Male",
+        "duration": "2 days",
+        "symptoms":[
+            "Shortness of Breath",
+            "Cough",
+            "Fever"
+        ]
+    },
+     "Gastrointestinal":{
+        "case": "Abdominal Pain",
+        "age":24,
+        "sex": "Male",
+        "duration": "12 hours",
+        "symptoms":[
+            "Abdominal Pain",
+            "Nausea",
+            "Loss of appetite"
+        ]
+     },
+     "Endocrinology":{
+        "case": "Hypoglycemia",
+        "age":48,
+        "sex": "Female",
+        "duration": "1 hour",
+        "symptoms":[
+            "Dizziness",
+            "Sweating",
+            "Trembling"
+        ],
+        "medical_history": "Type 2 Diabetes"
+     }
+}
+
+
+
+
+
